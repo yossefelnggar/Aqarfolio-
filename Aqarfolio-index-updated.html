@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Aqarfolio">
+<meta name="theme-color" content="#04323f">
+<title>Aqarfolio | كل عقاراتك، في محفظة واحدة</title>
+<link rel="icon" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" id="ati" href="data:image/png;base64,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">
+<link rel="manifest" id="mf">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+:root{--dk:#04323f;--gr:#12b39b;--lt:#2fd0b2;--bg:#f2f8f8;--bd:#d4e4e4;--mu:#5f8089}
+body{font-family:Cairo,sans-serif;background:var(--bg);color:#0b2e38}
+.glass{background:#fff;border:1px solid var(--bd);box-shadow:0 6px 24px rgba(4,50,63,.07)}
+header.glass{background:var(--dk);border:0;box-shadow:0 4px 20px rgba(4,50,63,.25)}
+.gold{background:linear-gradient(135deg,var(--gr),color-mix(in srgb,var(--gr) 80%,#000));color:#fff;font-weight:800}
+.gt{background:linear-gradient(135deg,var(--dk),var(--gr));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.in{width:100%;padding:.6rem .9rem;background:#fff;border:1px solid #c3d7d7;border-radius:.75rem;font-size:.85rem;color:#0b2e38;outline:none}
+.in:focus{border-color:var(--gr);box-shadow:0 0 0 3px rgba(18,179,155,.15)}
+.chip{padding:.5rem 1rem;border-radius:.75rem;font-size:.8rem;font-weight:700;white-space:nowrap;background:#fff;border:1px solid var(--bd);color:var(--dk)}
+.chip.on{background:var(--dk);color:#fff;border-color:var(--dk)}
+.brand{font-family:Outfit,Cairo,sans-serif;font-weight:800;letter-spacing:-.02em;direction:ltr}
+body .text-slate-300{color:#3e5f68}body .text-slate-400{color:var(--mu)}
+body header .text-slate-400{color:#9fc7c9}
+body .text-yellow-400{color:#0e9f8a}
+body .bg-slate-900\/40,body .bg-slate-900\/60,body .bg-slate-900\/70{background:#eef6f6}
+body .bg-slate-900\/80.cardbox{background:#eef6f6}
+body .bg-slate-800{background:#e2eeee}
+body .border-slate-700,body .border-slate-800{border-color:var(--bd)}
+body .border-yellow-500\/20{border-color:rgba(18,179,155,.3)}
+body .bg-yellow-500\/10{background:rgba(18,179,155,.1)}
+body .text-emerald-300{color:#6ee7cf}
+body{-webkit-tap-highlight-color:transparent;overscroll-behavior-y:none}header.glass{padding-top:env(safe-area-inset-top)}
+@media(max-width:480px){.chip{padding:.45rem .7rem}}
+button:focus-visible,a:focus-visible{outline:2px solid var(--gr);outline-offset:2px}
+</style>
+</head>
+<body class="min-h-screen">
+<header class="sticky top-0 z-40 glass border-b border-slate-800">
+ <div class="max-w-6xl mx-auto px-3 sm:px-4 py-2 min-h-16 flex items-center justify-between gap-2">
+  <div class="flex items-center gap-3 min-w-0">
+   <img src="data:image/png;base64,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" id="bl" alt="Aqarfolio" class="h-9 sm:h-11 w-auto shrink-0">
+   <div class="min-w-0"><h1 id="bh" class="brand text-xl sm:text-2xl leading-none"><span class="text-white">Aqar</span><span style="color:var(--lt)">folio</span></h1><p id="hSub" class="text-[11px] text-slate-400 truncate mt-1"></p></div>
+  </div>
+  <div class="flex items-center gap-1.5 sm:gap-2 text-sm shrink-0">
+   <button id="bInstall" onclick="install()" class="chip hidden" title="تثبيت التطبيق">📲<span class="hidden md:inline"> تثبيت التطبيق</span></button>
+   <button onclick="toggleLang()" id="bLang" class="chip" title="Language">EN</button>
+   <button onclick="toggleFav()" id="bFav" class="chip" title="المفضلة">♥ <span id="fc">0</span></button>
+   <button id="bAdm" onclick="adminBtn()" class="chip relative" title="لوحة السمسار" aria-label="لوحة السمسار">⚙<b id="lc" class="hidden absolute -top-1 -left-1 min-w-[18px] h-[18px] px-1 rounded-full bg-red-500 text-white text-[10px] grid place-items-center">0</b></button>
+  </div>
+ </div>
+</header>
+<div id="adStrip"></div>
+
+<main class="max-w-6xl mx-auto px-4 py-6 pb-28">
+ <section id="hero" class="mb-6"></section>
+ <div id="adBanner" class="mb-6 empty:hidden"></div>
+ <div id="fp" class="glass rounded-2xl p-3 flex flex-col md:flex-row gap-3 mb-6">
+  <input id="q" oninput="rs()" placeholder="ابحث بالمدينة أو الحي أو اسم العقار" class="in md:max-w-xs">
+  <input id="mx" inputmode="numeric" dir="ltr" oninput="pf(this);rs()" placeholder="أقصى سعر" class="in md:max-w-[9rem]">
+  <select id="so" onchange="rs()" class="in md:max-w-[10rem]"><option value="new">الأحدث</option><option value="lo">الأقل سعراً</option><option value="hi">الأعلى سعراً</option></select>
+  <div id="tabs" class="flex gap-2 overflow-x-auto md:mr-auto"></div>
+ </div>
+ <div id="grid" class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3"></div>
+ <div id="more" class="text-center mt-6"></div>
+ <div id="empty" class="hidden text-center py-16 text-slate-400"></div>
+</main>
+<footer id="ft" class="text-center text-xs text-slate-400 py-8"><b class="brand text-base gt">Aqarfolio</b><p class="mt-1">كل عقاراتك، في محفظة واحدة.</p></footer>
+
+<button id="fab" onclick="formP()" class="hidden fixed bottom-5 left-5 z-30 w-14 h-14 rounded-full gold text-3xl shadow-xl" aria-label="إضافة عقار">+</button>
+<div id="cbar" class="hidden fixed bottom-4 inset-x-4 z-40 glass rounded-2xl p-3 flex items-center justify-between max-w-md mx-auto"><span class="text-sm">⚖ <b id="cc">0</b> للمقارنة</span><span class="flex gap-2"><button onclick="clrCmp()" class="chip">مسح</button><button onclick="showCmp()" class="gold px-4 py-2 rounded-xl text-sm">قارن</button></span></div>
+<div id="selbar" class="hidden fixed bottom-4 inset-x-4 z-40 glass rounded-2xl p-3 flex items-center justify-between max-w-md mx-auto"><span class="text-sm">تم اختيار <b id="selc">0</b> عقار</span><span class="flex gap-2"><button onclick="endSel()" class="chip">إلغاء</button><button onclick="mkSel()" class="gold px-4 py-2 rounded-xl text-sm">إنشاء الرابط</button></span></div>
+<div id="m" class="fixed inset-0 z-50 hidden bg-black/80 flex items-center justify-center p-3" onclick="if(event.target===this)closeM()">
+ <div id="mb" class="glass rounded-3xl w-full max-w-2xl max-h-[92vh] overflow-y-auto p-5 relative"></div>
+</div>
+
+<script type="module">
+import {initializeApp} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import {getDatabase,ref,push,set,update,remove,onValue,get,runTransaction} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+const db=getDatabase(initializeApp({apiKey:"AIzaSyBWmbvrLMdxxFcWW2MgUM9wOTX6UBi4nzM",authDomain:"real-estate-e3dbc.firebaseapp.com",databaseURL:"https://real-estate-e3dbc-default-rtdb.europe-west1.firebasedatabase.app",projectId:"real-estate-e3dbc",storageBucket:"real-estate-e3dbc.firebasestorage.app",messagingSenderId:"206377894031",appId:"1:206377894031:web:a4dbafd54b926b9bd4f0fa"}));
+const KEY="6d207e02198a847aa98d0a2a901485a5",APP_LOGO="https://i.ibb.co/1G5YPb5j/file-00000000f48c81f4970bb2cf8824e3fe.png";
+const P=new URLSearchParams(location.search);
+const AG=(P.get('agent')||'').toLowerCase().replace(/[^a-z0-9_-]/g,''),LAND=!AG,REF=(P.get('ref')||'').toLowerCase().replace(/[^a-z0-9_-]/g,''),MANAGE=P.get('manage')==='1';
+const base='agents/'+AG;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt=n=>Number(n||0).toLocaleString('en-US');
+const ST={available:['متاح','bg-emerald-600'],reserved:['محجوز','bg-amber-500'],sold:['مباع','bg-red-600']};
+const CT={sale:'للبيع',rent:'للإيجار',commercial:'تجاري'};
+const LS={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}},set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}}};
+let profile=null,props=[],leads=[],admin=MANAGE&&sessionStorage.getItem('adm_'+AG)==='1',cat='all',favOnly=false,fav=LS.get('fav_'+AG,[]),cur=null,opened=false,dp=null;
+const C=()=>esc(profile?.cur||'ر.س');
+const MARK0=document.querySelector('header img').src,BH0=$('bh').innerHTML;
+let cmp=[],PAYQ={},FIN={},ver=false,shown=12,LANG=LS.get('lang','ar');
+let asked=0,ADS={},TIERS={},ADCFG={},AP=null,popT=null;
+const dk=()=>new Date().toISOString().slice(0,10);
+function track(k){if(admin||LAND)return;runTransaction(ref(db,`${base}/stats/days/${dk()}/${k}`),v=>(v||0)+1)}
+window.trk=track;
+const IDS=(P.get('ids')||'').split(',').filter(Boolean),FOR=(P.get('for')||'').slice(0,40);
+let selMode=false,sel=new Set(),PL={},PAY={},subReq=null,sub=null,freeF=null,ed=[];
+const FREE0={maxProps:3,maxImages:3,leads:false,selections:false,links:false,stats:false,brochure:false,brand:false,whitelabel:false,noAds:false,studio:false};
+const active=()=>!!(sub&&sub.end>Date.now());
+const F=()=>({...FREE0,...(active()?(sub.feat||{}):(freeF||{}))});
+const fd=d=>new Date(d).toLocaleDateString('ar-EG-u-nu-latn',{day:'numeric',month:'long',year:'numeric'});
+const FL=f=>{f={...FREE0,...f};const a=[f.maxProps>=999?'عقارات غير محدودة':`حتى ${f.maxProps} عقار`,f.maxImages>=99?'صور غير محدودة لكل عقار':`حتى ${f.maxImages} صور لكل عقار`];if(f.leads)a.push('تسجيل العملاء المهتمين');if(f.selections)a.push('روابط مخصصة لكل عميل');if(f.links)a.push('روابط إضافية في صفحتك');if(f.stats)a.push('إحصائيات الصفحة');if(f.brochure)a.push('بروشور PDF للعقار');if(f.brand)a.push('تخصيص الألوان');if(f.whitelabel)a.push('إخفاء اسم Aqarfolio');if(f.noAds)a.push('بدون إعلانات');if(f.studio)a.push('استوديو البوستات');return a};
+function limit(t){modal(`<div class="text-center py-3"><div class="text-4xl mb-2">🔒</div><h3 class="font-black text-lg">${esc(t)}</h3><p class="text-sm text-slate-400 mt-2">هذه الميزة غير متاحة في باقتك الحالية. رقِّ اشتراكك لتفعيلها.</p><button onclick="mySub()" class="gold px-6 py-3 rounded-xl mt-4">عرض الباقات</button></div>`)}
+const subLine=()=>active()?`باقة ${esc(sub.planName||'')} · متبقي ${Math.ceil((sub.end-Date.now())/864e5)} يوم`:'الباقة المجانية';
+const num=v=>+String(v).replace(/\D/g,'')||0;
+const tr=x=>+x.toFixed(2)+'';
+const short=n=>n>=1e9?tr(n/1e9)+' مليار':n>=1e6?tr(n/1e6)+' مليون':n>=1e3?tr(n/1e3)+' ألف':'';
+window.pf=el=>{const pos=el.selectionStart,before=el.value.slice(0,pos).replace(/\D/g,'').length,d=el.value.replace(/\D/g,'');
+ el.value=d?(+d).toLocaleString('en-US'):'';let i=0,c=0;while(i<el.value.length&&c<before){if(/\d/.test(el.value[i]))c++;i++}
+ try{el.setSelectionRange(i,i)}catch{}
+ const h=$('f_ph');if(h)h.textContent=d?short(+d)+' '+(profile?.cur||''):''};
+const shrink=(f,max,q)=>new Promise((ok,no)=>{const u=URL.createObjectURL(f),im=new Image();im.onload=()=>{URL.revokeObjectURL(u);const k=Math.min(1,max/Math.max(im.width,im.height)),c=document.createElement('canvas');c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext('2d').drawImage(im,0,0,c.width,c.height);c.toBlob(b=>b?ok(b):no(),'image/jpeg',q)};im.onerror=()=>no();im.src=u});
+async function fi(file){
+ let b;try{b=await shrink(file,1280,.72)}catch{return null}
+ try{const fd=new FormData();fd.append('key',KEY);fd.append('action','upload');fd.append('source',b,'p.jpg');fd.append('format','json');
+  const r=await(await fetch('https://freeimage.host/api/1/upload',{method:'POST',body:fd})).json();if(r.image?.url)return r.image.url}catch{}
+ try{if(b.size>150000)b=await shrink(file,960,.6);return await new Promise(ok=>{const rd=new FileReader();rd.onload=()=>ok(rd.result);rd.onerror=()=>ok(null);rd.readAsDataURL(b)})}catch{return null}
+}
+window.upA=async el=>{const u=el.files[0]&&await fi(el.files[0]);if(u)$('pa').value=u;else alert('تعذّر رفع الصورة. جرّب مرة أخرى.')};
+window.cp=b=>{navigator.clipboard.writeText($('su').value);b.textContent='تم النسخ ✓'};
+const imgs=p=>(p.imgs&&p.imgs.length?p.imgs:['https://placehold.co/800x600/171f32/eab308?text=Property']);
+
+window.modal=h=>{$('mb').innerHTML='<button onclick="closeM()" class="absolute top-3 left-3 w-8 h-8 rounded-full bg-slate-800 text-slate-300 z-10" aria-label="إغلاق">✕</button>'+h;$('m').classList.remove('hidden')};
+window.closeM=()=>$('m').classList.add('hidden');
+
+/* ---------- data ---------- */
+if(!LAND){
+onValue(ref(db,base+'/profile'),s=>{profile=s.val();head();render();if(!profile&&P.get('new')==='1'&&!asked&&!admin){asked=1;setup()}});
+onValue(ref(db,base+'/sub'),s=>{sub=s.val();head();render()});
+onValue(ref(db,base+'/subReq'),s=>{subReq=s.val()});
+onValue(ref(db,'platform/free'),s=>{freeF=s.val();head();render()});
+onValue(ref(db,base+'/properties'),s=>{props=Object.entries(s.val()||{}).map(([id,v])=>({id,...v}));render();hero();
+ const id=P.get('id');if(id&&!opened){const p=props.find(x=>x.id===id);if(p){opened=true;openP(id)}}});
+onValue(ref(db,'platform/ads'),s=>{ADS=s.val()||{};AP=null;renderAds();render()});
+onValue(ref(db,'platform/adTiers'),s=>{TIERS=s.val()||{};AP=null;renderAds();render()});
+onValue(ref(db,'platform/adCfg'),s=>{ADCFG=s.val()||{};AP=null;renderAds();render()});
+onValue(ref(db,'platform/fin'),s=>{FIN=s.val()||{}});
+onValue(ref(db,base+'/verified'),s=>{ver=!!s.val();hero()});
+if(!sessionStorage.getItem('pv_'+AG)){sessionStorage.setItem('pv_'+AG,'1');setTimeout(()=>track('v'),1500)}
+}
+let ll=false;
+function listenLeads(){if(ll)return;ll=true;onValue(ref(db,base+'/leads'),s=>{leads=Object.entries(s.val()||{}).map(([id,v])=>({id,...v})).sort((a,b)=>b.at-a.at);const n=leads.filter(l=>l.st==='new').length;$('lc').textContent=n;$('lc').classList.toggle('hidden',!n)})}
+if(admin&&!LAND)listenLeads();
+
+/* ---------- header / PWA ---------- */
+function head(){
+ const B=!LAND&&profile&&F().brand,W=!LAND&&profile&&F().whitelabel,rs=document.documentElement.style;
+ rs.setProperty('--dk',(B&&profile.c1)||'#04323f');rs.setProperty('--gr',(B&&profile.c2)||'#12b39b');
+ document.querySelector('meta[name=theme-color]').content=(B&&profile.c1)||'#04323f';
+ $('bh').innerHTML=W?esc(profile.name):BH0;$('bl').src=(W&&profile.avatar)?profile.avatar:MARK0;$('ft').classList.toggle('hidden',!!W);
+ $('bAdm').classList.toggle('hidden',LAND||(!MANAGE&&!admin));
+ if(LAND)$('bFav').classList.add('hidden');
+ renderAds();
+ $('hSub').textContent=profile?.name?('مستشارك: '+profile.name):'كل عقاراتك، في محفظة واحدة.';
+ document.title=(profile?.name?profile.name+' | ':'')+'Aqarfolio';
+ hero();$('fp').classList.toggle('hidden',IDS.length>0);$('fab').classList.toggle('hidden',!admin||selMode);
+ const im=new Image();im.onload=()=>{
+  const c=document.createElement('canvas');c.width=c.height=512;const x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,512,512);
+  const k=300/Math.max(im.width,im.height),w=im.width*k,h=im.height*k;x.drawImage(im,(512-w)/2,(512-h)/2,w,h);
+  $('ati').href=c.toDataURL('image/png');
+  c.toBlob(bl=>{const ic=URL.createObjectURL(bl);
+   const mf={name:document.title,short_name:(profile?.name||'Aqarfolio').slice(0,12),start_url:location.origin+location.pathname+'?agent='+AG,display:'standalone',background_color:'#ffffff',theme_color:'#04323f',dir:'rtl',lang:'ar',icons:[{src:ic,sizes:'512x512',type:'image/png',purpose:'any'}]};
+   $('mf').href=URL.createObjectURL(new Blob([JSON.stringify(mf)],{type:'application/manifest+json'}));});
+ };im.src=MARK0;
+}
+const ios=/iphone|ipad|ipod/i.test(navigator.userAgent),standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
+function showInst(){if(!standalone&&(dp||ios))$('bInstall').classList.remove('hidden')}
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();dp=e;showInst()});
+window.install=async()=>{if(dp){dp.prompt();await dp.userChoice;dp=null;$('bInstall').classList.add('hidden')}
+ else modal('<h3 class="font-black text-lg mb-3">تثبيت التطبيق على آيفون</h3><ol class="text-sm space-y-2 list-decimal pr-5"><li>افتح الصفحة من متصفح Safari.</li><li>اضغط زر المشاركة ⬆︎ أسفل الشاشة.</li><li>اختر «إضافة إلى الشاشة الرئيسية».</li></ol>')};
+showInst();
+function hero(){
+ const h=$('hero'),MARK=MARK0;
+ if(LAND){['fp','grid','empty'].forEach(i=>$(i).classList.add('hidden'));
+  h.innerHTML=`<div class="rounded-3xl p-6 sm:p-10 text-white text-center" style="background:linear-gradient(160deg,var(--dk),color-mix(in srgb,var(--dk) 55%,var(--gr)))"><img src="${MARK}" class="h-20 mx-auto" alt="">
+  <h2 class="text-2xl sm:text-3xl font-black mt-4">صفحتك العقارية في رابط واحد</h2>
+  <p class="text-sm text-teal-100/80 mt-2 max-w-lg mx-auto leading-relaxed">أضف عقاراتك، شارك رابطاً واحداً مع عملائك، وتابع كل من يهتم بها.</p>
+  <form onsubmit="goSlug(event)" class="max-w-md mx-auto mt-6 space-y-2 text-right"><label class="text-xs text-teal-100/80">اختر رابط صفحتك (حروف إنجليزية وأرقام)</label>
+  <div class="flex items-center bg-white rounded-xl overflow-hidden" dir="ltr"><span class="px-3 text-xs text-slate-400 whitespace-nowrap">?agent=</span><input id="sg" oninput="chkSlug(this)" maxlength="24" autocomplete="off" placeholder="ahmed" class="flex-1 py-3 pr-3 text-sm outline-none" style="color:var(--dk)"></div>
+  <p id="sm" class="text-xs min-h-[1rem]"></p><button id="sb" disabled class="gold w-full py-3 rounded-xl opacity-50">أنشئ صفحتي</button></form>
+  <div class="grid sm:grid-cols-3 gap-2 mt-6 text-xs text-teal-100/90"><span class="bg-white/10 rounded-xl py-2">✓ رابط واحد لكل عقاراتك</span><span class="bg-white/10 rounded-xl py-2">✓ يتثبّت كتطبيق</span><span class="bg-white/10 rounded-xl py-2">✓ متابعة العملاء المهتمين</span></div></div>`;return}
+ if(!profile){h.innerHTML=`<div class="glass rounded-3xl p-8 text-center"><img src="${MARK}" class="h-16 mx-auto mb-3" alt=""><h2 class="font-black text-xl">أنشئ صفحتك العقارية</h2><p class="text-sm text-slate-400 mt-1 mb-4">أضف عقاراتك، ثم شارك رابطاً واحداً مع عملائك.</p><button onclick="adminBtn()" class="gold px-6 py-3 rounded-xl">ابدأ الآن</button></div>`;return}
+ const wa=String(profile.phone||'').replace(/\D/g,''),L=!F().links?[]:(profile.links||[]).filter(l=>/^https?:\/\//.test(l.u));
+ const av=profile.avatar?`<img src="${esc(profile.avatar)}" class="w-20 h-20 rounded-full object-cover border-4 border-white/20" alt="">`:`<div class="w-20 h-20 rounded-full grid place-items-center text-3xl font-black bg-white/10 border-4 border-white/20">${esc((profile.name||'A')[0])}</div>`;
+ const b=(href,t,k)=>`<a href="${href}" ${k?`onclick="trk('${k}')" `:''}target="_blank" rel="noopener" class="block text-center py-3 rounded-2xl font-bold text-sm bg-white hover:bg-teal-50 transition" style="color:var(--dk)">${t}</a>`;
+ h.innerHTML=`<div class="rounded-3xl p-6 text-center text-white" style="background:linear-gradient(160deg,var(--dk),color-mix(in srgb,var(--dk) 55%,var(--gr)))"><div class="flex justify-center">${av}</div><h2 class="text-xl font-black mt-3">${esc(profile.name)}${ver?' <span class="text-xs bg-white/15 rounded-full px-2 py-0.5 align-middle">✓ موثّق</span>':''}</h2>${profile.bio?`<p class="text-sm text-teal-100/80 mt-1 max-w-md mx-auto leading-relaxed">${esc(profile.bio)}</p>`:''}${FOR?`<p class="mt-3 text-sm bg-white/10 rounded-xl py-2 px-4 inline-block">مختارات أعدّها لك يا ${esc(FOR)}</p>`:''}<div class="grid gap-2 max-w-md mx-auto mt-4">${wa?b('https://wa.me/'+wa,'💬 تواصل عبر واتساب','w')+b('tel:+'+wa,'📞 اتصال مباشر','c'):''}${L.map(l=>b(esc(l.u),esc(l.t))).join('')}</div><div class="flex justify-center gap-5 mt-4"><button onclick="shareMe()" class="text-xs underline text-teal-100/80">مشاركة هذه الصفحة</button>${IDS.length?`<a class="text-xs underline text-teal-100/80" href="?agent=${AG}">كل عقارات المستشار</a>`:''}</div></div>`+(admin&&!IDS.length?onb():'');
+}
+let st1;window.chkSlug=el=>{el.value=el.value.toLowerCase().replace(/[^a-z0-9_-]/g,'');const v=el.value,m=$('sm'),b=$('sb');b.disabled=true;b.classList.add('opacity-50');clearTimeout(st1);
+ if(v.length<3){m.textContent=v?'3 أحرف على الأقل.':'';m.className='text-xs text-teal-100/80';return}
+ m.textContent='جاري التحقق...';m.className='text-xs text-teal-100/80';
+ st1=setTimeout(async()=>{let t=false;try{t=(await get(ref(db,'platform/agents/'+v))).exists()||(await get(ref(db,`agents/${v}/profile`))).exists()}catch{}
+  if(el.value!==v)return;m.textContent=t?'هذا الرابط مستخدم، جرّب اسماً آخر.':'✓ الرابط متاح';m.className='text-xs '+(t?'text-red-300':'text-emerald-300');b.disabled=t;b.classList.toggle('opacity-50',t)},400)};
+window.goSlug=e=>{e.preventDefault();const v=$('sg').value;if(v.length>=3&&!$('sb').disabled)location.href='?agent='+v+'&new=1&manage=1'+(REF?'&ref='+REF:'')};
+window.shareMe=()=>{LS.set('shared_'+AG,1);shareLink(location.origin+location.pathname+'?agent='+AG,'رابط صفحتي العقارية')};
+window.manageMe=()=>shareLink(location.origin+location.pathname+'?agent='+AG+'&manage=1','رابط إدارة صفحتي (خاص بي)');
+window.invite=()=>shareLink(location.origin+location.pathname+'?ref='+AG,'رابط دعوة الوسطاء');
+
+/* ---------- list ---------- */
+function tabs(){
+ const t=[['all','الكل'],['sale','للبيع'],['rent','للإيجار'],['commercial','تجاري'],['vip','👑 VIP']];
+ $('tabs').innerHTML=t.map(([k,l])=>`<button onclick="setCat('${k}')" class="chip ${cat===k?'on':''}">${l}</button>`).join('');
+}
+window.setCat=k=>{cat=k;shown=12;render()};
+window.rs=()=>{shown=12;render()};window.more=()=>{shown+=12;render()};
+window.toggleFav=()=>{favOnly=!favOnly;$('bFav').classList.toggle('on',favOnly);render()};
+window.render=()=>{if(LAND)return;
+ tabs();$('fc').textContent=fav.length;
+ const q=$('q').value.trim().toLowerCase(),mx=num($('mx').value),so=$('so').value;
+ let a=props.filter(p=>(!IDS.length||IDS.includes(p.id))&&(cat==='all'||(cat==='vip'?p.vip:p.cat===cat))&&(!favOnly||fav.includes(p.id))&&(!mx||p.price<=mx)&&((p.title+' '+p.loc).toLowerCase().includes(q)));
+ a.sort((x,y)=>so==='lo'?x.price-y.price:so==='hi'?y.price-x.price:(y.vip-x.vip)||((y.at||0)-(x.at||0)));
+ const tot=a.length;a=a.slice(0,shown);
+ const cards=a.map(p=>{const s=ST[p.status||'available'];return`
+ <article class="glass rounded-3xl overflow-hidden cursor-pointer hover:border-yellow-500/50 transition" onclick="cardClick('${p.id}')">
+  <div class="relative h-52">
+   <img src="${esc(imgs(p)[0])}" loading="lazy" alt="${esc(p.title)}" class="w-full h-full object-cover ${p.status==='sold'?'grayscale':''}" onerror="this.src='https://placehold.co/800x600/171f32/eab308?text=Property'">
+   <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+   <span class="absolute top-3 right-3 text-xs px-3 py-1 rounded-full font-bold ${p.vip?'gold':'bg-teal-900 text-white'}">${p.vip?'👑 VIP':CT[p.cat]||''}</span>
+   <span class="absolute top-3 left-12 text-xs px-3 py-1 rounded-full font-bold text-white ${s[1]}">${s[0]}</span>
+   <button onclick="event.stopPropagation();fv('${p.id}')" class="absolute top-2 left-2 w-8 h-8 rounded-full bg-black/60 ${fav.includes(p.id)?'text-red-500':'text-white'}" aria-label="مفضلة">♥</button>
+   <b class="absolute bottom-3 right-4 text-lg text-white">${fmt(p.price)} <small class="text-emerald-300">${C()}</small></b>
+   ${selMode?`<span class="absolute bottom-3 left-3 w-8 h-8 rounded-full grid place-items-center font-black ${sel.has(p.id)?'gold':'bg-white/90 text-transparent'}">✓</span>`:`<button onclick="event.stopPropagation();cm('${p.id}')" class="absolute bottom-3 left-3 w-8 h-8 rounded-full bg-black/60 ${cmp.includes(p.id)?'text-teal-300':'text-white'}" aria-label="مقارنة" title="مقارنة">⚖</button>`}
+  </div>
+  <div class="p-4">
+   <h3 class="font-bold line-clamp-1">${esc(p.title)}</h3>
+   <p class="text-xs text-slate-400 mt-1">📍 ${esc(p.loc)}</p>
+   <div class="grid grid-cols-3 gap-2 mt-3 text-xs text-center bg-slate-900/60 rounded-xl py-2"><span>${fmt(p.area)} م²</span><span>${fmt(p.beds)} غرف</span><span>${fmt(p.baths)} حمام</span></div>
+   ${admin?`<div class="flex justify-between mt-3 text-xs text-slate-400"><span>👁 ${fmt(p.views||0)}</span><span><button class="text-yellow-400 ml-3" onclick="event.stopPropagation();formP('${p.id}')">تعديل</button><button class="text-red-400" onclick="event.stopPropagation();delP('${p.id}')">حذف</button></span></div>`:''}
+  </div>
+ </article>`});injectAds(cards);$('grid').innerHTML=cards.join('');$('more').innerHTML=tot>a.length?`<button onclick="more()" class="chip px-8 py-3">عرض المزيد (${tot-a.length})</button>`:'';
+ $('empty').classList.toggle('hidden',tot>0);
+ $('empty').innerHTML=props.length?'لا توجد عقارات مطابقة. جرّب تغيير البحث أو الفلاتر.':(profile?'لم تُضف عقارات بعد.'+(admin?' اضغط "+ عقار" للبدء.':''):'هذا الكتالوج غير مُنشأ. اضغط ⚙ لإنشائه.');
+};
+window.cardClick=id=>{if(!selMode)return openP(id);sel.has(id)?sel.delete(id):sel.add(id);selUi();render()};
+function selUi(){$('selbar').classList.toggle('hidden',!selMode);$('selc').textContent=sel.size;$('fab').classList.toggle('hidden',!admin||selMode)}
+window.startSel=()=>{if(!F().selections)return limit('روابط العملاء المخصصة');closeM();selMode=true;sel.clear();selUi();render()};
+window.endSel=()=>{selMode=false;sel.clear();selUi();render()};
+window.mkSel=()=>{if(!sel.size)return alert('اختر عقاراً واحداً على الأقل.');modal('<h3 class="font-black text-lg mb-3">رابط خاص لعميل</h3><form onsubmit="goSel(event)" class="space-y-3"><input id="sn" class="in" placeholder="اسم العميل (اختياري)"><button class="gold w-full py-3 rounded-xl">إنشاء الرابط</button></form>')};
+window.goSel=e=>{e.preventDefault();const n=$('sn').value.trim(),u=`${location.origin}${location.pathname}?agent=${AG}&ids=${[...sel].join(',')}`+(n?'&for='+encodeURIComponent(n):'');selMode=false;sel.clear();selUi();render();shareLink(u,'رابط العميل')};
+window.fv=id=>{fav=fav.includes(id)?fav.filter(x=>x!==id):[...fav,id];LS.set('fav_'+AG,fav);render()};
+
+/* ---------- details ---------- */
+window.openP=id=>{
+ const p=props.find(x=>x.id===id);if(!p)return;cur=p;
+ if(!admin)runTransaction(ref(db,`${base}/properties/${id}/views`),v=>(v||0)+1);
+ const im=imgs(p),s=ST[p.status||'available'];
+ modal(`
+ <div class="relative h-60 sm:h-72 rounded-2xl overflow-hidden"><img id="gi" src="${esc(im[0])}" alt="${esc(p.title)}" class="w-full h-full object-cover"><span class="absolute top-3 right-3 text-xs px-3 py-1 rounded-full font-bold text-white ${s[1]}">${s[0]}</span></div>
+ ${im.length>1?`<div class="flex gap-2 mt-2 overflow-x-auto">${im.map((u,i)=>`<img src="${esc(u)}" onclick="document.getElementById('gi').src=this.src" class="w-16 h-12 rounded-lg object-cover cursor-pointer border border-slate-700" alt="صورة ${i+1}">`).join('')}</div>`:''}
+ <h2 class="text-xl font-black mt-4">${esc(p.title)}</h2>
+ <p class="text-sm text-slate-400">📍 ${esc(p.loc)}</p>
+ <p class="text-2xl font-black gt mt-2">${fmt(p.price)} ${C()}</p>
+ <div class="grid grid-cols-4 gap-2 my-4 text-center text-xs bg-slate-900/70 rounded-2xl p-3"><div><i class="text-slate-400 block not-italic">المساحة</i><b>${fmt(p.area)} م²</b></div><div><i class="text-slate-400 block not-italic">الغرف</i><b>${fmt(p.beds)}</b></div><div><i class="text-slate-400 block not-italic">الحمامات</i><b>${fmt(p.baths)}</b></div><div><i class="text-slate-400 block not-italic">المواقف</i><b>${fmt(p.park||0)}</b></div></div>
+ <p class="text-sm text-slate-300 leading-relaxed bg-slate-900/40 rounded-xl p-3">${esc(p.desc||'لا يوجد وصف.')}</p>${extras(p)}
+ <div class="mt-4 p-4 rounded-2xl bg-slate-900/80 border border-yellow-500/20">
+  <h4 class="font-bold text-sm mb-3">حاسبة الأقساط</h4>
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+   <label>المقدم %<input id="cd" type="number" value="20" min="0" max="100" oninput="calc()" class="in mt-1"></label>
+   <label>السنوات<input id="cy" type="number" value="5" min="1" max="30" oninput="calc()" class="in mt-1"></label>
+   <label>فائدة سنوية %<input id="ci" type="number" value="0" min="0" step=".1" oninput="calc()" class="in mt-1"></label>
+  </div>
+  <div class="flex justify-between mt-3 p-3 rounded-xl bg-yellow-500/10 text-sm"><span>القسط الشهري</span><b id="cr" class="text-yellow-400"></b></div>${FIN.on&&FIN.wa?`<button onclick="finGo()" class="chip w-full mt-3">${esc(FIN.label||'اطلب تمويلاً لهذا العقار')}</button>`:''}
+ </div>
+ <div class="flex gap-2 mt-4">
+  <button onclick="leadForm()" class="flex-1 py-3 rounded-xl bg-emerald-600 text-white font-bold text-sm">احجز معاينة عبر واتساب</button>
+  <button onclick="share()" class="px-4 rounded-xl chip">مشاركة</button><button onclick="brochure()" class="px-4 rounded-xl chip" title="بروشور PDF">📄 PDF</button>${admin?'<button onclick="studio()" class="px-4 rounded-xl chip" title="بوست للسوشيال">🎨 بوست</button>':''}
+ </div>${similar(p)}`);
+ calc();
+};
+window.calc=()=>{
+ const d=(parseFloat($('cd').value)||0)/100,y=Math.max(1,parseInt($('cy').value)||1),r=(parseFloat($('ci').value)||0)/100;
+ const loan=cur.price*(1-d),m=loan*(1+r*y)/(y*12);
+ $('cr').textContent=fmt(Math.round(m))+' '+(profile?.cur||'ر.س')+' / شهرياً';
+};
+
+/* ---------- lead capture -> WhatsApp ---------- */
+window.leadForm=()=>{if(!F().leads)return goWa('');modal(`
+ <h3 class="font-black text-lg mb-1">احجز معاينة</h3><p class="text-xs text-slate-400 mb-4">اترك بياناتك ليتواصل معك المستشار.</p>
+ <form onsubmit="sendLead(event)" class="space-y-3">
+  <input id="ln" required placeholder="الاسم" class="in" value="${esc(LS.get('lead_n',''))}">
+  <input id="lp" required type="tel" placeholder="رقم الهاتف" class="in" value="${esc(LS.get('lead_p',''))}">
+  <div class="grid grid-cols-2 gap-2"><label class="text-xs text-slate-300">يوم المعاينة المفضل<input id="lv" type="date" min="${dk()}" class="in mt-1"></label><label class="text-xs text-slate-300">الفترة<select id="ls" class="in mt-1"><option value="">أي وقت</option><option>صباحاً (9–12)</option><option>ظهراً (12–4)</option><option>مساءً (4–9)</option></select></label></div>
+  <button class="gold w-full py-3 rounded-xl">متابعة إلى واتساب</button>
+ </form>`)};
+function goWa(n,v,sl){track('w');const en=LANG==='en',c=profile?.cur||'';
+ const t=encodeURIComponent(en?`Hello${n?', I am '+n:''}. I would like to view: ${cur.title} (${cur.loc}), priced at ${fmt(cur.price)} ${c}.${v?` Preferred time: ${v} ${sl||''}`:''}`:`مرحباً${n?'، أنا '+n:''}. أرغب بمعاينة العقار: ${cur.title} (${cur.loc}) بسعر ${fmt(cur.price)} ${c}.${v?` الموعد المفضل: ${v} ${sl||''}`:''}`);
+ window.open(`https://wa.me/${(profile?.phone||'').replace(/\D/g,'')}?text=${t}`,'_blank');closeM()}
+window.sendLead=async e=>{
+ e.preventDefault();const n=$('ln').value.trim(),ph=$('lp').value.trim(),v=$('lv').value,sl=$('ls').value;LS.set('lead_n',n);LS.set('lead_p',ph);
+ const L={name:n,phone:ph,pid:cur.id,ptitle:cur.title,st:'new',at:Date.now(),...(v?{visit:v,slot:sl}:{})};
+ goWa(n,v,sl);try{await push(ref(db,base+'/leads'),L)}catch{}
+ if(/^https:\/\/script\.google\.com\//.test(profile?.sheet||''))fetch(profile.sheet,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},body:JSON.stringify(L)}).catch(()=>{});
+};
+
+/* ---------- share ---------- */
+window.share=()=>shareLink(`${location.origin}${location.pathname}?agent=${AG}&id=${cur.id}`,'مشاركة العقار');
+window.shareLink=(u,t)=>{
+ modal(`<div class="text-center"><h3 class="font-black text-lg mb-3">${esc(t)}</h3><div id="qr" class="bg-white p-3 rounded-2xl inline-block border border-slate-700"></div>
+ <input id="su" readonly value="${esc(u)}" dir="ltr" class="in mt-4 text-xs">
+ <div class="grid grid-cols-2 gap-2 mt-2"><button onclick="cp(this)" class="chip py-2.5">نسخ الرابط</button><a target="_blank" rel="noopener" href="https://wa.me/?text=${encodeURIComponent(t+': '+u)}" class="gold py-2.5 rounded-xl text-sm">إرسال عبر واتساب</a></div></div>`);
+ new QRCode($('qr'),{text:u,width:150,height:150,colorDark:'#04323f',colorLight:'#fff'});
+};
+
+/* ---------- onboarding / description / finance ---------- */
+function onb(){
+ if(LS.get('onb_'+AG,0))return'';const d=[!!profile,props.length>0,!!LS.get('shared_'+AG,0)],n=d.filter(Boolean).length;if(n===3)return'';
+ const st=(ok,t,f)=>`<button onclick="${f}" class="flex items-center gap-2 w-full text-right text-sm py-2"><span class="w-5 h-5 rounded-full grid place-items-center text-[11px] ${ok?'gold':'bg-slate-200 text-slate-500'}">${ok?'✓':''}</span><span class="${ok?'line-through text-slate-400':''}">${t}</span></button>`;
+ return`<div class="glass rounded-3xl p-4 mt-4"><div class="flex justify-between items-center mb-2"><b>ابدأ في 3 خطوات</b><button onclick="hideOnb()" class="text-slate-400" aria-label="إخفاء">✕</button></div><div class="h-1.5 rounded bg-slate-200 mb-2 overflow-hidden"><div class="h-full gold" style="width:${n/3*100}%"></div></div>${st(d[0],'أنشئ صفحتك','adminBtn()')}${st(d[1],'أضف أول عقار','formP()')}${st(d[2],'شارك رابط صفحتك مع عملائك','shareMe()')}</div>`}
+window.hideOnb=()=>{LS.set('onb_'+AG,1);hero()};
+window.genDesc=()=>{
+ const R=a=>a[Math.floor(Math.random()*a.length)],c=$('f_c').value,a=num($('f_a').value),b=num($('f_b').value),h=num($('f_h').value),k=num($('f_k').value),l=$('f_l').value.trim(),t=$('f_t').value.trim(),kind={sale:'للبيع',rent:'للإيجار',commercial:'تجاري'}[c];
+ let x=`${t||R(['عقار مميز','فرصة مميزة'])} ${kind}${l?' في '+l:''}`+(a?`، بمساحة ${a} م²`:'');
+ if(c!=='commercial'&&(b||h))x+=`، يضم ${[b?b+' غرف نوم':'',h?h+' حمامات':''].filter(Boolean).join(' و')}`;
+ if(k)x+=`، ومواقف تتسع لـ ${k} سيارة`;x+='.';
+ $('f_d').value=[x,R(c==='commercial'?['موقع حيوي ومناسب للأنشطة التجارية والمكاتب الإدارية.','واجهة مميزة وحركة مرور عالية تدعم نجاح نشاطك.']:['تصميم عملي يستغل المساحات بأفضل صورة ويمنح أسرتك راحة كاملة.','تشطيب راقٍ وتوزيع مدروس للغرف يناسب الأسرة.']),R(['قريب من الخدمات والمحاور الرئيسية.','في منطقة هادئة ومتكاملة الخدمات.','فرصة مناسبة للسكن أو الاستثمار.']),R(['للمعاينة والاستفسار تواصل معنا الآن.','تواصل معنا لحجز موعد المعاينة.'])].join(' ')};
+window.finGo=()=>{
+ const d=$('cd').value,y=$('cy').value,n=LS.get('lead_n','');runTransaction(ref(db,`platform/finStats/${AG}/c`),v=>(v||0)+1);
+ const t=encodeURIComponent(`أرغب بالاستفسار عن تمويل العقار: ${cur.title} (${cur.loc}) بسعر ${fmt(cur.price)} ${profile?.cur||''} — المقدم ${d}% لمدة ${y} سنة.${n?' الاسم: '+n:''}`);
+ window.open(`https://wa.me/${String(FIN.wa).replace(/\D/g,'')}?text=${t}`,'_blank')};
+
+/* ---------- CSV import ---------- */
+const CAT={'للبيع':'sale','بيع':'sale','sale':'sale','للإيجار':'rent','إيجار':'rent','rent':'rent','تجاري':'commercial','commercial':'commercial'};
+const CSVH=['العنوان','التصنيف','السعر','المساحة','الغرف','الحمامات','المواقف','الموقع','الوصف','رابط الصورة','VIP'];
+function parseCSV(t,d){const r=[];let row=[],c='',q=false;for(let i=0;i<t.length;i++){const ch=t[i];
+ if(q){if(ch==='"'){if(t[i+1]==='"'){c+='"';i++}else q=false}else c+=ch}
+ else if(ch==='"')q=true;else if(ch===d){row.push(c);c=''}
+ else if(ch==='\n'||ch==='\r'){if(ch==='\r'&&t[i+1]==='\n')i++;row.push(c);c='';if(row.some(x=>x.trim()))r.push(row);row=[]}else c+=ch}
+ row.push(c);if(row.some(x=>x.trim()))r.push(row);return r}
+window.importM=()=>modal(`<h3 class="font-black text-lg mb-2">استيراد عقارات من ملف</h3><p class="text-xs text-slate-400 mb-3 leading-relaxed">نزّل النموذج، املأه في Excel، ثم احفظه بصيغة CSV UTF-8 وارفعه هنا. التصنيف: للبيع / للإيجار / تجاري. الصور: رابط أو أكثر مفصولة بعلامة |</p>
+ <button onclick="tplCsv()" class="chip w-full mb-3">⬇ تنزيل نموذج الملف</button><input type="file" id="cf" accept=".csv,text/csv" class="hidden" onchange="doImport(this)"><button onclick="document.getElementById('cf').click()" class="gold w-full py-3 rounded-xl">اختيار ملف CSV</button><p id="ir" class="text-xs mt-3 leading-relaxed"></p>`);
+window.tplCsv=()=>{const csv='\ufeff'+CSVH.join(',')+'\n"فيلا مودرن بحمام سباحة",للبيع,8500000,320,5,4,2,"التجمع الخامس","وصف مختصر للعقار","https://example.com/1.jpg|https://example.com/2.jpg",نعم\n';
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='properties-template.csv';a.click()};
+window.doImport=async el=>{
+ const f=el.files[0];if(!f)return;const out=$('ir');out.textContent='جاري القراءة...';
+ let t=(await f.text()).replace(/^\ufeff/,'');const first=t.split(/\r?\n/)[0]||'',d=first.includes(',')?',':first.includes(';')?';':'\t';
+ const rows=parseCSV(t,d);if(rows.length<2){out.textContent='الملف فارغ أو غير مطابق للنموذج.';return}
+ const H=rows[0].map(x=>x.trim()),ix=n=>H.indexOf(n);if(ix('العنوان')<0||ix('السعر')<0){out.textContent='لم أجد عمودي «العنوان» و«السعر». استخدم النموذج.';return}
+ const room=Math.max(0,F().maxProps-props.length);let ok=0,skip=0,over=0;
+ for(const r of rows.slice(1)){const g=n=>(r[ix(n)]||'').trim(),title=g('العنوان'),price=num(g('السعر'));
+  if(!title||!price){skip++;continue}if(ok>=room){over++;continue}
+  const imgsA=g('رابط الصورة').split(/[|\s]+/).filter(u=>/^https?:\/\//.test(u)).slice(0,F().maxImages);
+  try{await push(ref(db,base+'/properties'),{title,cat:CAT[g('التصنيف')]||'sale',status:'available',vip:/^(نعم|yes|1|true)$/i.test(g('VIP')),price,area:num(g('المساحة')),beds:num(g('الغرف')),baths:num(g('الحمامات')),park:num(g('المواقف')),loc:g('الموقع'),desc:g('الوصف'),imgs:imgsA,views:0,at:Date.now()});ok++}catch{skip++}}
+ out.innerHTML=`✓ تم استيراد <b>${ok}</b> عقار.${skip?` تم تخطي ${skip} صف ناقص.`:''}${over?` <span class="text-red-600">${over} صف لم يُستورد لأن باقتك وصلت للحد الأقصى (${F().maxProps}).</span>`:''}`;el.value=''};
+
+/* ---------- post studio ---------- */
+window.studio=()=>{
+ if(!F().studio)return limit('استوديو البوستات');
+ modal(`<h3 class="font-black text-lg mb-3">استوديو البوستات</h3><div class="flex gap-2 mb-3"><button id="sf1" onclick="drawPost(1)" class="chip on">مربع 1:1</button><button id="sf2" onclick="drawPost(2)" class="chip">ستوري 9:16</button></div>
+ <canvas id="pc" class="w-full rounded-2xl border border-slate-700"></canvas><p id="pn" class="text-xs text-yellow-400 mt-2"></p>
+ <div class="grid grid-cols-2 gap-2 mt-3"><button onclick="dlPost()" class="gold py-3 rounded-xl text-sm">⬇ تنزيل الصورة</button><button onclick="shPost()" class="chip py-3">مشاركة</button></div>`);drawPost(1)};
+window.drawPost=async f=>{
+ const c=$('pc');if(!c)return;const W=1080,H=f===2?1920:1080,Hi=f===2?1100:600;c.width=W;c.height=H;$('sf1').classList.toggle('on',f===1);$('sf2').classList.toggle('on',f===2);
+ const x=c.getContext('2d'),p=cur,B=(F().brand&&profile.c1)||'#04323f',G=(F().brand&&profile.c2)||'#12b39b',cu=profile?.cur||'';
+ try{await document.fonts.load('800 60px Cairo');await document.fonts.load('600 40px Cairo')}catch{}
+ const g=x.createLinearGradient(0,0,W,H);g.addColorStop(0,B);g.addColorStop(1,G);x.fillStyle=g;x.fillRect(0,0,W,H);
+ const im=await new Promise(ok=>{const i=new Image();i.crossOrigin='anonymous';i.onload=()=>ok(i);i.onerror=()=>ok(null);i.src=imgs(p)[0]});
+ $('pn').textContent=im?'':'تعذّر تضمين صورة العقار بسبب قيود موقع الصورة. ارفع الصورة من جهازك عند إضافة العقار لتظهر في البوست.';
+ if(im){const k=Math.max(W/im.width,Hi/im.height),w=im.width*k,h=im.height*k;x.save();x.beginPath();x.rect(0,0,W,Hi);x.clip();x.drawImage(im,(W-w)/2,(Hi-h)/2,w,h);x.restore()}
+ const fd=x.createLinearGradient(0,Hi-220,0,Hi);fd.addColorStop(0,'rgba(0,0,0,0)');fd.addColorStop(1,B);x.fillStyle=fd;x.fillRect(0,Hi-220,W,220);
+ x.fillStyle=B;x.fillRect(0,Hi,W,H-Hi);x.fillStyle=G;x.fillRect(0,Hi,W,8);
+ x.direction='rtl';x.textAlign='right';
+ const tag=p.vip?'👑 VIP':(CT[p.cat]||'');x.font='800 40px Cairo';const tw=x.measureText(tag).width+60;x.fillStyle=G;x.beginPath();x.roundRect?x.roundRect(W-60-tw,50,tw,76,38):x.rect(W-60-tw,50,tw,76);x.fill();x.fillStyle='#fff';x.textAlign='center';x.fillText(tag,W-60-tw/2,103);x.textAlign='right';
+ const gp=f===2?1.3:1;let y=Hi+(f===2?110:90);x.fillStyle='#fff';x.font='800 56px Cairo';
+ const wr=(t,w,mx)=>{const L=[];let l='';for(const wd of String(t).split(' ')){const t2=l?l+' '+wd:wd;if(x.measureText(t2).width>w&&l){L.push(l);l=wd}else l=t2}if(l)L.push(l);return L.slice(0,mx)};
+ wr(p.title,W-120,2).forEach(l=>{x.fillText(l,W-60,y);y+=66});
+ x.font='600 38px Cairo';x.fillStyle='rgba(255,255,255,.8)';y+=8*gp;x.fillText('📍 '+p.loc,W-60,y);
+ y+=95*gp;x.font='800 84px Cairo';x.fillStyle='#fff';x.fillText(fmt(p.price)+' '+cu,W-60,y);
+ y+=70*gp;x.font='600 38px Cairo';x.fillStyle='rgba(255,255,255,.85)';x.fillText([p.area?fmt(p.area)+' م²':'',p.beds?fmt(p.beds)+' غرف':'',p.baths?fmt(p.baths)+' حمام':''].filter(Boolean).join('   •   '),W-60,y);
+ x.fillStyle=G;x.fillRect(60,H-150,W-120,3);
+ x.font='800 40px Cairo';x.fillStyle='#fff';x.fillText(profile?.name||'',W-60,H-85);x.textAlign='left';x.font='600 38px Cairo';x.fillText(profile?.phone||'',60,H-85);
+ if(!F().whitelabel){x.textAlign='center';x.font='700 26px Outfit,Cairo,sans-serif';x.fillStyle='rgba(255,255,255,.55)';x.fillText('Aqarfolio',W/2,H-30)}};
+window.dlPost=()=>$('pc').toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='post-'+cur.id+'.png';a.click()});
+window.shPost=()=>$('pc').toBlob(b=>{const f=new File([b],'post.png',{type:'image/png'});if(navigator.canShare&&navigator.canShare({files:[f]}))navigator.share({files:[f]}).catch(()=>{});else dlPost()});
+
+/* ---------- extras / similar / compare ---------- */
+function extras(p){
+ const m=String(p.map||'').trim(),co=/^-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?$/.test(m),q=co?m.replace(/\s/g,''):p.loc,ml=/^https?:\/\//.test(m)?m:`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+ const yv=String(p.video||'').match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/),http=x=>/^https?:\/\//.test(x||'');
+ return`<div class="mt-4"><h4 class="font-bold text-sm mb-2">📍 الموقع على الخريطة</h4><iframe loading="lazy" class="w-full h-44 rounded-xl border-0" src="https://maps.google.com/maps?q=${encodeURIComponent(q)}&output=embed" title="map"></iframe><a href="${esc(ml)}" target="_blank" rel="noopener" class="chip inline-block mt-2 text-xs">فتح في الخرائط</a></div>`
+ +(yv?`<div class="mt-4"><h4 class="font-bold text-sm mb-2">🎥 فيديو العقار</h4><iframe loading="lazy" class="w-full aspect-video rounded-xl border-0" src="https://www.youtube.com/embed/${yv[1]}" allowfullscreen title="video"></iframe></div>`:http(p.video)?`<a href="${esc(p.video)}" target="_blank" rel="noopener" class="chip inline-block mt-3 text-xs">🎥 فيديو العقار</a>`:'')
+ +(http(p.tour)?`<a href="${esc(p.tour)}" target="_blank" rel="noopener" class="chip inline-block mt-3 mr-2 text-xs">🕶 جولة 360°</a>`:'')}
+function similar(p){
+ const L=props.filter(x=>x.id!==p.id&&(!IDS.length||IDS.includes(x.id))&&x.cat===p.cat&&x.price>=p.price*.6&&x.price<=p.price*1.4).sort((a,b)=>Math.abs(a.price-p.price)-Math.abs(b.price-p.price)).slice(0,3);
+ return L.length?`<h4 class="font-bold text-sm mt-5 mb-2">عقارات مشابهة</h4><div class="grid grid-cols-3 gap-2">${L.map(x=>`<div onclick="openP('${x.id}')" class="cursor-pointer"><img src="${esc(imgs(x)[0])}" class="w-full h-20 object-cover rounded-xl" alt=""><div class="text-[11px] font-bold mt-1 line-clamp-1">${esc(x.title)}</div><div class="text-[11px] gt font-bold">${fmt(x.price)}</div></div>`).join('')}</div>`:''}
+window.cm=id=>{if(cmp.includes(id))cmp=cmp.filter(x=>x!==id);else if(cmp.length>=3)return alert(LANG==='en'?'You can compare up to 3 properties.':'يمكن مقارنة 3 عقارات كحد أقصى.');else cmp.push(id);cbarUi();render()};
+function cbarUi(){$('cbar').classList.toggle('hidden',cmp.length<1);$('cc').textContent=cmp.length}
+window.clrCmp=()=>{cmp=[];cbarUi();closeM();render()};
+window.showCmp=()=>{
+ const L=cmp.map(id=>props.find(p=>p.id===id)).filter(Boolean);if(L.length<2)return alert(LANG==='en'?'Select at least 2 properties.':'اختر عقارين على الأقل.');
+ const R=[['السعر',p=>fmt(p.price)+' '+(profile?.cur||'')],['سعر المتر',p=>p.area?fmt(Math.round(p.price/p.area)):'—'],['المساحة',p=>fmt(p.area)+' م²'],['الغرف',p=>fmt(p.beds)],['الحمامات',p=>fmt(p.baths)],['المواقف',p=>fmt(p.park||0)],['الموقع',p=>esc(p.loc)],['التصنيف',p=>CT[p.cat]||''],['الحالة',p=>ST[p.status||'available'][0]]];
+ modal(`<h3 class="font-black text-lg mb-3">مقارنة العقارات</h3><div class="overflow-x-auto"><table class="w-full text-xs min-w-[420px]"><tr><td></td>${L.map(p=>`<td class="p-1 align-top w-1/3"><img src="${esc(imgs(p)[0])}" class="w-full h-24 object-cover rounded-xl" alt=""><div class="font-bold mt-1 line-clamp-2">${esc(p.title)}</div></td>`).join('')}</tr>${R.map(([l,f])=>`<tr class="border-t border-slate-700"><td class="py-2 pr-1 text-slate-400 whitespace-nowrap">${l}</td>${L.map(p=>`<td class="py-2 px-1 font-bold">${f(p)}</td>`).join('')}</tr>`).join('')}</table></div>`)};
+
+/* ---------- ads ---------- */
+const adOn=()=>!LAND&&!admin&&ADCFG.on!==false&&!F().noAds;
+const live=pl=>Object.entries(ADS).map(([id,a])=>({...a,id,t:TIERS[a.tier]})).filter(a=>a.t&&a.t.placement===pl&&a.active!==false&&a.start<=Date.now()&&a.end>Date.now()&&(!(a.agents||[]).length||a.agents.includes(AG)));
+const wpick=(L,n)=>{const o=[];L=[...L];const w=x=>+x.t.weight||1;while(L.length&&o.length<n){let r=Math.random()*L.reduce((q,x)=>q+w(x),0),i=0;while(i<L.length-1&&(r-=w(L[i]))>0)i++;o.push(L.splice(i,1)[0])}return o};
+const APk=()=>AP||(AP={strip:wpick(live('strip'),1),banner:wpick(live('banner'),1),card:wpick(live('card'),2),popup:wpick(live('popup'),1)});
+const seen=a=>{const k='ad_'+a.id;if(sessionStorage.getItem(k))return;sessionStorage.setItem(k,'1');runTransaction(ref(db,`platform/adStats/${a.id}/v`),v=>(v||0)+1)};
+window.adGo=id=>{const a=ADS[id];if(!a||!/^https?:\/\//.test(a.link||''))return;runTransaction(ref(db,`platform/adStats/${id}/c`),v=>(v||0)+1);window.open(a.link,'_blank','noopener')};
+const adImg=a=>a.image?`<img src="${esc(a.image)}" alt="" class="w-full h-full object-cover" loading="lazy">`:'';
+const adBadge=a=>`<span class="text-[10px] font-bold px-2 py-0.5 rounded-full text-white" style="background:${esc(a.t.color||'#64748b')}">${esc(a.t.label||'إعلان')}</span>`;
+const adCta=a=>`<span class="gold inline-block text-sm rounded-xl px-5 py-2">${esc(a.cta||'اعرف المزيد')}</span>`;
+function adCard(a){seen(a);return`<article class="glass rounded-3xl overflow-hidden cursor-pointer flex flex-col" onclick="adGo('${a.id}')" style="border-color:${esc(a.t.color||'#d4e4e4')}"><div class="relative h-52 bg-slate-100">${adImg(a)}<span class="absolute top-3 right-3">${adBadge(a)}</span></div><div class="p-4 flex-1 flex flex-col"><span class="text-[11px] text-slate-400">${esc(a.company||'')}</span><h3 class="font-bold line-clamp-1">${esc(a.title)}</h3><p class="text-xs text-slate-400 mt-1 line-clamp-3">${esc(a.text)}</p><div class="mt-auto pt-3 text-center">${adCta(a)}</div></div></article>`}
+function injectAds(c){if(!adOn()||!c.length)return;APk().card.forEach((a,i)=>c.splice(Math.min(c.length,2+i*6),0,adCard(a)))}
+function renderAds(){
+ const S=$('adStrip'),B=$('adBanner');if(!S)return;
+ if(!adOn()){S.innerHTML='';B.innerHTML='';return}
+ const s=APk().strip[0],b=APk().banner[0],p=APk().popup[0];
+ if(s)seen(s);if(b)seen(b);
+ S.innerHTML=s?`<a onclick="adGo('${s.id}')" class="block text-center text-xs sm:text-sm py-2 px-3 cursor-pointer text-white" style="background:${esc(s.t.color||'#0a6f6b')}"><b class="bg-white/20 rounded-full px-2 py-0.5 text-[10px] ml-2">${esc(s.t.label||'إعلان')}</b>${esc(s.title)}${s.text?' — '+esc(s.text):''}</a>`:'';
+ B.innerHTML=b?`<div onclick="adGo('${b.id}')" class="glass rounded-3xl overflow-hidden cursor-pointer flex flex-col sm:flex-row" style="border-color:${esc(b.t.color||'#d4e4e4')}"><div class="sm:w-2/5 h-40 sm:h-auto bg-slate-100">${adImg(b)}</div><div class="p-5 flex-1"><div class="flex items-center gap-2 mb-1">${adBadge(b)}<span class="text-xs text-slate-400">${esc(b.company||'')}</span></div><h3 class="font-black text-lg">${esc(b.title)}</h3><p class="text-sm text-slate-400 mt-1">${esc(b.text)}</p><div class="mt-3">${adCta(b)}</div></div></div>`:'';
+ if(p&&!popT&&!sessionStorage.getItem('adpop'))popT=setTimeout(()=>{popT=null;const q=APk().popup[0];if(!q||!adOn()||!$('m').classList.contains('hidden')||sessionStorage.getItem('adpop'))return;sessionStorage.setItem('adpop','1');seen(q);
+  modal(`<div class="-m-5 mb-3 h-44 bg-slate-100 overflow-hidden rounded-t-3xl">${adImg(q)}</div><div class="flex items-center gap-2 mb-1">${adBadge(q)}<span class="text-xs text-slate-400">${esc(q.company||'')}</span></div><h3 class="font-black text-lg">${esc(q.title)}</h3><p class="text-sm text-slate-400 mt-1">${esc(q.text)}</p><button onclick="adGo('${q.id}');closeM()" class="gold w-full py-3 rounded-xl mt-4">${esc(q.cta||'اعرف المزيد')}</button>`)},4000);
+}
+
+/* ---------- stats ---------- */
+window.showStats=async()=>{
+ if(!F().stats)return limit('إحصائيات الصفحة');
+ modal('<p class="text-center text-slate-400 py-8">جاري التحميل...</p>');
+ let d={};try{d=(await get(ref(db,base+'/stats/days'))).val()||{}}catch{}
+ const D=[];for(let i=13;i>=0;i--){const t=new Date(Date.now()-i*864e5).toISOString().slice(0,10),x=d[t]||{};D.push({t,v:x.v||0,w:x.w||0,c:x.c||0})}
+ const sm=(n,k)=>D.slice(-n).reduce((a,x)=>a+x[k],0),mx=Math.max(1,...D.map(x=>x.v));
+ const box=(l,v,s)=>`<div class="rounded-2xl bg-slate-900/70 p-3 text-center"><div class="text-xl font-black gt">${fmt(v)}</div><div class="text-[11px] text-slate-400">${l}</div>${s?`<div class="text-[10px] text-slate-400">${s}</div>`:''}</div>`;
+ const top=[...props].filter(p=>p.views).sort((a,b)=>b.views-a.views).slice(0,5);
+ modal(`<h3 class="font-black text-lg mb-3">إحصائيات صفحتك</h3><div class="grid grid-cols-3 gap-2">${box('مشاهدات (7 أيام)',sm(7,'v'),'آخر 14: '+fmt(sm(14,'v')))}${box('نقرات واتساب',sm(7,'w'),'آخر 14: '+fmt(sm(14,'w')))}${box('عملاء مهتمون',leads.length)}</div>
+ <div class="mt-4 text-xs text-slate-400">المشاهدات اليومية (آخر 14 يوماً)</div><div class="flex items-end gap-1 h-28 mt-2">${D.map(x=>`<div class="flex-1 h-full flex items-end" title="${x.t}: ${x.v}"><div class="w-full rounded-t gold" style="height:${Math.max(3,x.v/mx*100)}%"></div></div>`).join('')}</div>
+ <div class="flex justify-between text-[10px] text-slate-400 mt-1"><span>${D[0].t.slice(5)}</span><span>${D[13].t.slice(5)}</span></div>
+ <h4 class="font-bold text-sm mt-5 mb-2">الأكثر مشاهدة</h4>${top.length?top.map(p=>`<div class="flex justify-between text-sm py-1.5 border-b border-slate-700"><span class="truncate">${esc(p.title)}</span><b>👁 ${fmt(p.views)}</b></div>`).join(''):'<p class="text-xs text-slate-400">لا توجد بيانات بعد.</p>'}`);
+};
+
+/* ---------- brochure ---------- */
+window.brochure=()=>{
+ if(!F().brochure)return limit('بروشور PDF للعقار');
+ const p=cur,u=`${location.origin}${location.pathname}?agent=${AG}&id=${p.id}`,q=document.createElement('div');
+ new QRCode(q,{text:u,width:180,height:180,colorDark:'#04323f',colorLight:'#fff'});
+ const qr=q.querySelector('canvas').toDataURL(),im=imgs(p),B=(F().brand&&profile.c1)||'#04323f',G=(F().brand&&profile.c2)||'#12b39b',W=F().whitelabel,cu=esc(profile?.cur||'');
+ const w=window.open('','_blank');if(!w)return alert('اسمح بالنوافذ المنبثقة ثم أعد المحاولة.');
+ w.document.write(`<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><title>${esc(p.title)}</title><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet"><style>
+@page{size:A4;margin:0}*{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}body{margin:0;font-family:Cairo,sans-serif;color:#0b2e38}
+.top{background:${B};color:#fff;padding:16px 28px;display:flex;justify-content:space-between;align-items:center;font-size:14px}.top b{font-size:18px}
+.cover{width:100%;height:330px;object-fit:cover;display:block}.pad{padding:20px 28px}h1{margin:0 0 4px;font-size:25px}.loc{color:#5f8089;font-size:14px}
+.price{font-size:32px;font-weight:900;color:${G};margin:10px 0}.specs{display:flex;gap:10px;margin:12px 0}.specs div{flex:1;background:#eef6f6;border-radius:12px;padding:9px;text-align:center;font-size:12px}.specs b{display:block;font-size:17px}
+.d{font-size:13.5px;line-height:1.9;margin:0}.g{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}.g img{width:100%;height:140px;object-fit:cover;border-radius:10px}
+.ft{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:2px solid ${G};margin-top:14px;padding-top:12px;font-size:13px}.ft img{width:96px;height:96px}</style></head><body>
+<div class="top"><b>${esc(profile?.name||'')}</b><span dir="ltr">${esc(profile?.phone||'')}</span></div>
+<img class="cover" src="${esc(im[0])}" alt="">
+<div class="pad"><h1>${esc(p.title)}</h1><div class="loc">📍 ${esc(p.loc)}</div><div class="price">${fmt(p.price)} ${cu}</div>
+<div class="specs"><div><b>${fmt(p.area)}</b>م²</div><div><b>${fmt(p.beds)}</b>غرف</div><div><b>${fmt(p.baths)}</b>حمامات</div><div><b>${fmt(p.park||0)}</b>مواقف</div></div>
+<p class="d">${esc(p.desc||'')}</p>
+${im.length>1?`<div class="g">${im.slice(1,5).map(x=>`<img src="${esc(x)}" alt="">`).join('')}</div>`:''}
+<div class="ft"><div><b>${esc(profile?.name||'')}</b><div dir="ltr" style="text-align:right">${esc(profile?.phone||'')}</div>${W?'':'<div style="color:#5f8089;font-size:11px;margin-top:6px">Aqarfolio</div>'}</div><div style="text-align:center;font-size:11px"><img src="${qr}" alt=""><div>امسح الرمز لعرض التفاصيل</div></div></div></div>
+<script>onload=()=>setTimeout(()=>print(),900)<\/script></body></html>`);
+ w.document.close();
+};
+
+/* ---------- subscription ---------- */
+window.cpv=b=>{navigator.clipboard.writeText(b.dataset.v);b.textContent='تم ✓'};
+const planCard=(id,p)=>`<div class="rounded-2xl border border-slate-700 p-4 mb-3"><div class="flex justify-between items-start gap-2"><b>${esc(p.name)}</b><span class="font-black gt text-lg whitespace-nowrap">${fmt(p.price)} <small>${esc(PAY.cur||'')}</small> <small class="text-slate-400 font-normal">/ ${p.days||30} يوم</small></span></div>
+ <ul class="text-xs text-slate-300 mt-2 space-y-1">${[...FL(p.feat||{}),...(p.perks||[])].map(x=>`<li>✓ ${esc(x)}</li>`).join('')}</ul>
+ <button onclick="payFor('${id}')" class="gold w-full py-2.5 rounded-xl text-sm mt-3">${sub&&sub.plan===id&&active()?'تجديد الاشتراك':'اشترك الآن'}</button></div>`;
+window.mySub=async()=>{
+ modal('<p class="text-center text-slate-400 py-8">جاري التحميل...</p>');
+ try{[PL,PAY]=await Promise.all([get(ref(db,'platform/plans')).then(s=>s.val()||{}),get(ref(db,'platform/pay')).then(s=>s.val()||{})])}catch{}
+ const act=active(),dl=act?Math.ceil((sub.end-Date.now())/864e5):0;
+ const st=act?`<div class="rounded-2xl p-4 text-white mb-4" style="background:linear-gradient(160deg,var(--dk),color-mix(in srgb,var(--dk) 55%,var(--gr)))"><div class="text-xs opacity-80">اشتراكك الحالي</div><b class="text-lg">${esc(sub.planName||'')}</b><div class="text-xs mt-2 opacity-90">من ${fd(sub.start)} إلى ${fd(sub.end)}</div><div class="h-1.5 rounded bg-white/20 mt-3 overflow-hidden"><div class="h-full bg-teal-300" style="width:${Math.min(100,dl/Math.max(1,(sub.end-sub.start)/864e5)*100)}%"></div></div><div class="text-xs mt-1">${dl<=5?'⚠️ ':''}متبقي ${dl} يوم</div></div>`
+  :`<div class="rounded-2xl p-4 bg-slate-900/70 mb-4 text-sm"><b>الباقة المجانية</b><p class="text-xs text-slate-400 mt-1">${FL(F()).join(' · ')}</p>${sub?`<p class="text-xs text-red-500 mt-2">انتهى اشتراكك في ${fd(sub.end)}. جدّد للاستمرار في مزايا الباقة.</p>`:''}</div>`;
+ const rq=subReq?`<p class="text-xs bg-yellow-500/10 rounded-xl p-3 mb-3">⏳ طلب اشتراكك في «${esc(subReq.planName)}» قيد المراجعة، وسيُفعَّل بعد تأكيد التحويل.</p>`:'';
+ const list=Object.entries(PL).filter(([,p])=>p.active!==false).sort((a,b)=>(a[1].order||0)-(b[1].order||0));
+ modal(`<h3 class="font-black text-lg mb-3">اشتراكي والباقات</h3>${st}${rq}${list.length?list.map(([id,p])=>planCard(id,p)).join(''):'<p class="text-sm text-slate-400">لا توجد باقات متاحة حالياً.</p>'}`);
+};
+window.payFor=id=>{
+ const p=PL[id];if(!p)return;PAYQ={};
+ const ms=(PAY.methods||[]).map(m=>`<div class="flex items-center justify-between gap-2 bg-white/10 rounded-xl px-3 py-2"><div class="min-w-0"><div class="text-[11px] opacity-80">${esc(m.label)}</div><div class="font-bold text-sm break-all" dir="ltr">${esc(m.value)}</div></div><button type="button" data-v="${esc(m.value)}" onclick="cpv(this)" class="text-xs bg-white/20 rounded-lg px-3 py-1.5 shrink-0">نسخ</button></div>`).join('');
+ modal(`<h3 class="font-black text-lg mb-3">إتمام الاشتراك</h3>
+ <div class="rounded-2xl p-5 text-white" style="background:linear-gradient(160deg,var(--dk),color-mix(in srgb,var(--dk) 55%,var(--gr)))"><div class="text-xs opacity-80">المبلغ المطلوب</div><div class="text-3xl font-black"><span id="pamt">${fmt(p.price)}</span> <small class="text-base">${esc(PAY.cur||'')}</small></div><div class="text-xs opacity-90 mb-3">باقة ${esc(p.name)} · ${p.days||30} يوم</div>${PAY.text?`<p class="text-sm leading-relaxed mb-3">${esc(PAY.text)}</p>`:''}<div class="space-y-2">${ms||'<p class="text-sm">سنزوّدك بوسيلة الدفع عبر واتساب.</p>'}</div></div>
+ <div class="flex gap-2 mt-4"><input id="cd" dir="ltr" class="in" placeholder="كود الخصم (إن وجد)"><button type="button" onclick="applyCode('${id}')" class="chip">تطبيق</button></div><p id="cdm" class="text-xs mt-1 min-h-[1rem]"></p>
+ <form onsubmit="sendReq(event,'${id}')" class="space-y-3 mt-2"><p class="text-xs text-slate-400">بعد التحويل، اكتب بيانات العملية ليتم تفعيل اشتراكك.</p>
+ <input id="rs" required class="in" placeholder="اسم المُحوِّل أو الرقم الذي تم التحويل منه"><input id="rr" class="in" placeholder="رقم العملية أو ملاحظات (اختياري)"><button class="gold w-full py-3 rounded-xl">تأكيد التحويل وإرسال الطلب</button></form>`);
+};
+window.applyCode=async id=>{
+ const p=PL[id],c=$('cd').value.trim().toUpperCase().replace(/[^A-Z0-9_-]/g,''),m=$('cdm');if(!c)return;m.textContent='جاري التحقق...';m.className='text-xs mt-1 text-slate-400';
+ let x=null;try{x=(await get(ref(db,'platform/codes/'+c))).val()}catch{}
+ const n=Date.now(),bad=!x||x.active===false?'الكود غير صحيح.':(x.exp&&x.exp<n)?'انتهت صلاحية الكود.':(x.max&&(x.used||0)>=x.max)?'تم استهلاك هذا الكود.':(x.plan&&x.plan!==id)?'الكود لا ينطبق على هذه الباقة.':(x.agent&&x.agent!==AG)?'هذا الكود غير مخصص لصفحتك.':'';
+ if(bad){PAYQ={};$('pamt').textContent=fmt(p.price);m.textContent=bad;m.className='text-xs mt-1 text-red-600';return}
+ const pr=x.type==='amt'?Math.max(0,p.price-x.val):Math.round(p.price*(1-x.val/100));PAYQ={code:c,price:pr};
+ $('pamt').textContent=fmt(pr);m.textContent='✓ تم تطبيق الخصم: '+(x.type==='amt'?fmt(x.val)+' '+(PAY.cur||''):x.val+'%');m.className='text-xs mt-1 text-emerald-600'};
+window.sendReq=async(e,id)=>{
+ e.preventDefault();const p=PL[id],d={agent:AG,name:profile?.name||'',phone:profile?.phone||'',plan:id,planName:p.name,price:PAYQ.price??p.price,code:PAYQ.code||'',orig:p.price,days:p.days||30,sender:$('rs').value.trim(),ref:$('rr').value.trim(),at:Date.now(),status:'pending'};
+ try{await push(ref(db,'platform/requests'),d);await set(ref(db,base+'/subReq'),{plan:id,planName:p.name,at:d.at})}catch(err){return alert('تعذّر إرسال الطلب: '+err.message)}
+ const w=String(PAY.whatsapp||'').replace(/\D/g,'');
+ modal(`<div class="text-center py-4"><div class="text-5xl mb-3">✅</div><h3 class="font-black text-lg">تم استلام طلبك</h3><p class="text-sm text-slate-400 mt-2">سنراجع التحويل ونفعّل اشتراكك في أقرب وقت. ${esc(PAY.eta||'')}</p>${w?`<a target="_blank" rel="noopener" href="https://wa.me/${w}?text=${encodeURIComponent(`أرسلت تحويل اشتراك باقة ${p.name} (${fmt(PAYQ.price??p.price)} ${PAY.cur||''}) - صفحة: ${AG}`)}" class="gold block py-3 rounded-xl mt-4 text-sm">إرسال إيصال التحويل عبر واتساب</a>`:''}</div>`);
+};
+
+/* ---------- admin ---------- */
+window.adminBtn=()=>{
+ if(!profile)return setup();
+ if(admin)return modal(`<h3 class="font-black text-lg mb-1">لوحة السمسار</h3><p class="text-xs text-slate-400 mb-4">${subLine()}</p><div class="grid gap-2"><button onclick="formP()" class="gold py-3 rounded-xl">+ إضافة عقار</button><button onclick="importM()" class="chip py-3">📥 استيراد عقارات (Excel / CSV)</button><button onclick="invite()" class="chip py-3">🎁 ادعُ وسيطاً</button><button onclick="showStats()" class="chip py-3">📊 إحصائيات الصفحة</button><button onclick="mySub()" class="chip py-3">💎 اشتراكي والباقات</button><button onclick="startSel()" class="chip py-3">📤 إرسال مختارات لعميل</button><button onclick="shareMe()" class="chip py-3">🔗 مشاركة رابط صفحتي العامة</button><button onclick="manageMe()" class="chip py-3">⚙ رابط وضع الإدارة</button><button onclick="showLeads()" class="chip py-3">العملاء المهتمون</button><button onclick="setup(true)" class="chip py-3">بيانات الكتالوج</button><button onclick="logout()" class="chip py-3 text-red-400">تسجيل الخروج</button></div>`);
+ modal(`<h3 class="font-black text-lg mb-3">دخول السمسار</h3><form onsubmit="login(event)" class="space-y-3"><input id="pin" type="password" inputmode="numeric" placeholder="الرمز السري" class="in" required><button class="gold w-full py-3 rounded-xl">دخول</button></form>`);
+};
+window.login=e=>{e.preventDefault();if($('pin').value===String(profile.pin)){admin=true;sessionStorage.setItem('adm_'+AG,'1');listenLeads();head();render();closeM()}else{$('pin').value='';$('pin').placeholder='الرمز غير صحيح'}};
+window.logout=()=>{admin=false;sessionStorage.removeItem('adm_'+AG);head();render();closeM()};
+window.setup=(edit)=>{const p=edit?profile:{};modal(`<h3 class="font-black text-lg mb-1">${edit?'بيانات صفحتك':'أنشئ صفحتك العقارية'}</h3><p class="text-xs text-slate-400 mb-4" dir="ltr">?agent=${AG}</p>
+ <form onsubmit="saveProfile(event)" class="space-y-3">
+  <input id="pn" required placeholder="اسمك أو اسم شركتك" class="in" value="${esc(p.name||'')}">
+  <textarea id="pb" rows="2" placeholder="نبذة قصيرة عنك (مثال: مستشار عقاري في التجمع الخامس)" class="in">${esc(p.bio||'')}</textarea>
+  <input id="pp" required inputmode="numeric" dir="ltr" placeholder="رقم واتساب بالكود الدولي، مثل 201000000000" class="in text-right" value="${esc(p.phone||'')}">
+  <div class="grid grid-cols-2 gap-2"><input id="pc" required placeholder="العملة (ج.م / ر.س)" class="in" value="${esc(p.cur||'')}"><input id="pk" required placeholder="الرمز السري للوحة التحكم" class="in" value="${esc(p.pin||'')}"></div>
+  <div class="flex gap-2"><input id="pa" placeholder="رابط صورتك أو شعارك" dir="ltr" class="in" value="${esc(p.avatar||'')}"><input type="file" id="paf" accept="image/*" class="hidden" onchange="upA(this)"><button type="button" onclick="document.getElementById('paf').click()" class="chip">رفع</button></div>
+  <label class="text-xs text-slate-300">رابط Google Sheets لحفظ العملاء تلقائياً (اختياري)<input id="psh" dir="ltr" class="in mt-1" value="${esc(p.sheet||'')}" placeholder="https://script.google.com/macros/s/.../exec"></label>
+  <details class="text-xs text-slate-400 -mt-1"><summary class="cursor-pointer" style="color:var(--gr)">كيف أربط الشيت؟</summary><ol class="list-decimal pr-5 mt-2 space-y-1"><li>افتح Google Sheet جديد ثم الإضافات ثم Apps Script.</li><li>الصق الكود التالي.</li><li>انشر كتطبيق ويب (Deploy ثم Web app) واجعل الوصول لأي شخص.</li><li>انسخ رابط exec والصقه هنا.</li></ol><pre dir="ltr" class="bg-slate-100 rounded-xl p-2 mt-2 overflow-x-auto text-[10px]">function doPost(e){var d=JSON.parse(e.postData.contents);
+SpreadsheetApp.getActiveSheet().appendRow([new Date(),d.name,d.phone,d.ptitle,d.visit||'',d.slot||'']);
+return ContentService.createTextOutput('ok')}</pre></details>
+  <div class="grid grid-cols-2 gap-2"><label class="text-xs text-slate-300">اللون الأساسي<input id="pc1" type="color" value="${esc(p.c1||'#04323f')}" class="in !p-1 h-10 mt-1"></label><label class="text-xs text-slate-300">لون التمييز<input id="pc2" type="color" value="${esc(p.c2||'#12b39b')}" class="in !p-1 h-10 mt-1"></label></div>${F().brand?'':'<p class="text-[11px] text-slate-400">🔒 تخصيص الألوان وإخفاء اسم Aqarfolio متاحان في الباقات المدفوعة.</p>'}
+  <label class="text-xs text-slate-300">روابطك (سطر لكل رابط، بالشكل: العنوان | الرابط)<textarea id="pl" rows="3" dir="ltr" placeholder="Instagram | https://instagram.com/yourname" class="in mt-1">${esc((p.links||[]).map(l=>l.t+' | '+l.u).join('\n'))}</textarea></label>
+  <button class="gold w-full py-3 rounded-xl">حفظ</button></form>`)};
+window.saveProfile=async e=>{e.preventDefault();
+ const links=$('pl').value.split('\n').map(l=>{const [t,...u]=l.split('|');return{t:(t||'').trim(),u:u.join('|').trim()}}).filter(l=>l.t&&/^https?:\/\//.test(l.u));
+ await set(ref(db,base+'/profile'),{name:$('pn').value.trim(),bio:$('pb').value.trim(),phone:$('pp').value.trim(),cur:$('pc').value.trim(),pin:$('pk').value.trim(),avatar:$('pa').value.trim(),links,c1:$('pc1').value,c2:$('pc2').value,sheet:$('psh').value.trim()});
+ if(!profile){try{const tr=(await get(ref(db,'platform/trial'))).val();if(tr&&tr.on&&tr.plan){const pl=(await get(ref(db,'platform/plans/'+tr.plan))).val();if(pl){const n=Date.now();await set(ref(db,base+'/sub'),{plan:tr.plan,planName:pl.name+' (تجربة)',start:n,end:n+(tr.days||7)*864e5,feat:{...FREE0,...(pl.feat||{})},perks:pl.perks||[],trial:true})}}}catch{}}
+ await update(ref(db,'platform/agents/'+AG),{name:$('pn').value.trim(),phone:$('pp').value.trim(),...(profile?{}:{at:Date.now(),...(REF&&REF!==AG?{ref:REF}:{})})});
+ admin=true;sessionStorage.setItem('adm_'+AG,'1');listenLeads();head();closeM()};
+
+window.formP=id=>{
+ const p=id?props.find(x=>x.id===id):{};
+ if(!id&&props.length>=F().maxProps)return limit(`وصلت للحد الأقصى (${F().maxProps} عقار)`);
+ ed=[...(p.imgs||[])];queueMicrotask(thumbs);
+ const f=(i,l,v,t='text',r=true)=>`<label class="text-xs text-slate-300">${l}<input id="${i}" type="${t}" ${r?'required':''} value="${esc(v??'')}" class="in mt-1"></label>`;
+ modal(`<h3 class="font-black text-lg mb-3">${id?'تعديل العقار':'إضافة عقار'}</h3>
+ <form onsubmit="saveP(event,'${id||''}')" class="space-y-3">
+  ${f('f_t','العنوان',p.title)}
+  <div class="grid grid-cols-3 gap-2">
+   <label class="text-xs">التصنيف<select id="f_c" class="in mt-1">${Object.entries(CT).map(([k,v])=>`<option value="${k}" ${p.cat===k?'selected':''}>${v}</option>`).join('')}</select></label>
+   <label class="text-xs">الحالة<select id="f_s" class="in mt-1">${Object.entries(ST).map(([k,v])=>`<option value="${k}" ${p.status===k?'selected':''}>${v[0]}</option>`).join('')}</select></label>
+   <label class="text-xs flex items-end gap-2 pb-2"><input id="f_v" type="checkbox" ${p.vip?'checked':''}> VIP</label>
+  </div>
+  <div class="grid grid-cols-2 gap-2"><label class="text-xs text-slate-300">السعر<input id="f_p" required inputmode="numeric" dir="ltr" value="${p.price?fmt(p.price):''}" oninput="pf(this)" class="in mt-1 text-right"><span id="f_ph" class="text-[11px] text-yellow-400">${p.price?short(p.price)+' '+(profile?.cur||''):''}</span></label>${f('f_a','المساحة م²',p.area,'number')}</div>
+  <div class="grid grid-cols-3 gap-2">${f('f_b','الغرف',p.beds??3,'number',false)}${f('f_h','الحمامات',p.baths??2,'number',false)}${f('f_k','المواقف',p.park??1,'number',false)}</div>
+  ${f('f_l','الموقع',p.loc)}
+  <label class="text-xs text-slate-300">الخريطة: إحداثيات أو رابط Google Maps (اختياري)<input id="f_m" dir="ltr" class="in mt-1" value="${esc(p.map||'')}" placeholder="30.0444,31.2357"></label>
+  <div class="grid grid-cols-2 gap-2"><label class="text-xs text-slate-300">رابط فيديو (اختياري)<input id="f_vd" dir="ltr" class="in mt-1" value="${esc(p.video||'')}" placeholder="https://youtu.be/..."></label><label class="text-xs text-slate-300">جولة 360° (اختياري)<input id="f_tr" dir="ltr" class="in mt-1" value="${esc(p.tour||'')}" placeholder="https://..."></label></div>
+  <div class="rounded-2xl border border-slate-700 p-3 space-y-2"><div class="flex justify-between text-xs"><b>صور العقار</b><span id="ic" class="text-slate-400"></span></div>
+  <div id="th" class="flex gap-2 overflow-x-auto pb-1"></div>
+  <input type="file" id="f_f" accept="image/*" multiple class="hidden" onchange="upl(this)">
+  <button type="button" onclick="document.getElementById('f_f').click()" class="chip w-full py-2">📷 اختيار صور من الجهاز (يتم ضغطها تلقائياً)</button>
+  <p id="up" class="text-xs text-yellow-400 hidden"></p>
+  <div class="flex gap-2"><input id="iu" dir="ltr" placeholder="أو الصق رابط صورة" class="in"><button type="button" onclick="addUrl()" class="chip">إضافة</button></div></div>
+  <div class="flex justify-between items-center -mb-2"><span class="text-xs text-slate-300">الوصف</span><button type="button" onclick="genDesc()" class="text-xs underline" style="color:var(--gr)">✨ اكتب وصفاً تلقائياً</button></div><label class="text-xs text-slate-300"><textarea id="f_d" rows="3" class="in mt-1">${esc(p.desc||'')}</textarea></label>
+  <button class="gold w-full py-3 rounded-xl">حفظ</button>
+ </form>`);
+};
+window.thumbs=()=>{const h=$('th');if(!h)return;h.innerHTML=ed.map((u,i)=>`<div class="relative w-20 h-16 shrink-0"><img src="${esc(u)}" class="w-full h-full object-cover rounded-lg border border-slate-700" alt=""><button type="button" onclick="rmI(${i})" class="absolute -top-1 -left-1 w-5 h-5 rounded-full bg-red-600 text-white text-[10px]" aria-label="حذف">✕</button>${i?`<button type="button" onclick="coverI(${i})" class="absolute bottom-0 inset-x-0 text-[9px] bg-black/60 text-white rounded-b-lg">تعيين غلاف</button>`:'<span class="absolute bottom-0 inset-x-0 text-[9px] text-center gold rounded-b-lg">الغلاف</span>'}</div>`).join('');$('ic').textContent=ed.length+' / '+(F().maxImages>=99?'∞':F().maxImages)};
+window.rmI=i=>{ed.splice(i,1);thumbs()};
+window.coverI=i=>{ed.unshift(ed.splice(i,1)[0]);thumbs()};
+window.addUrl=()=>{const el=$('iu'),v=el.value.trim();if(!/^https?:\/\//.test(v))return;if(ed.length>=F().maxImages)return alert(`باقتك تسمح بـ ${F().maxImages} صور لكل عقار.`);ed.push(v);el.value='';thumbs()};
+window.upl=async el=>{const fs=[...el.files],max=F().maxImages;if(!fs.length)return;const up=$('up');up.classList.remove('hidden');let fail=0,n=0;
+ for(const f of fs){if(ed.length>=max){alert(`باقتك تسمح بـ ${max} صور لكل عقار.`);break}n++;up.textContent=`جاري ضغط ورفع الصورة ${n} من ${fs.length}...`;const u=await fi(f);if(u){ed.push(u);thumbs()}else fail++}
+ up.classList.add('hidden');el.value='';if(fail)alert(`تعذّر رفع ${fail} صورة. جرّب صورة أخرى.`)};
+window.saveP=async(e,id)=>{
+ e.preventDefault();
+ const d={title:$('f_t').value.trim(),cat:$('f_c').value,status:$('f_s').value,vip:$('f_v').checked,price:num($('f_p').value),area:+$('f_a').value||0,beds:+$('f_b').value||0,baths:+$('f_h').value||0,park:+$('f_k').value||0,loc:$('f_l').value.trim(),imgs:ed.slice(),map:$('f_m').value.trim(),video:$('f_vd').value.trim(),tour:$('f_tr').value.trim(),desc:$('f_d').value.trim()};
+ try{if(id)await update(ref(db,`${base}/properties/${id}`),d);else await push(ref(db,base+'/properties'),{...d,views:0,at:Date.now()});closeM()}catch(err){alert('فشل الحفظ: '+err.message)}
+};
+window.delP=id=>{if(confirm('حذف العقار نهائياً؟'))remove(ref(db,`${base}/properties/${id}`))};
+
+const LL={new:'جديد',contacted:'تم التواصل',visit:'معاينة',closed:'مغلق'};
+window.showLeads=()=>{
+ if(!F().leads)return limit('متابعة العملاء المهتمين');
+ const td=dk(),due=leads.filter(l=>l.fu&&l.fu<=td&&l.st!=='closed').length;
+ modal(`<div class="flex justify-between items-center mb-3"><h3 class="font-black text-lg">العملاء المهتمون (${leads.length})</h3><button onclick="expLeads()" class="chip">⬇ Excel</button></div>${due?`<p class="text-xs bg-yellow-500/10 rounded-xl p-2 mb-3">⏰ لديك ${due} متابعة مستحقة اليوم أو متأخرة.</p>`:''}`+(leads.length?leads.map(l=>`
+  <div class="bg-slate-900/70 rounded-xl p-3 mb-2 text-sm">
+   <div class="flex justify-between"><b>${esc(l.name)}</b><span class="text-xs text-slate-400">${new Date(l.at).toLocaleDateString('ar-EG-u-nu-latn')}</span></div>
+   <p class="text-xs text-slate-400 my-1">${esc(l.ptitle)}</p>
+   ${l.visit?`<p class="text-xs mb-1" style="color:var(--gr)">📅 معاينة: ${esc(l.visit)} ${esc(l.slot||'')}</p>`:''}
+   <div class="flex gap-2 items-center"><a href="https://wa.me/${esc(String(l.phone).replace(/\D/g,''))}" target="_blank" class="text-emerald-600 text-xs" dir="ltr">${esc(l.phone)}</a>
+   <select onchange="setLead('${l.id}',this.value)" class="in !w-auto !py-1 mr-auto text-xs">${Object.entries(LL).map(([k,v])=>`<option value="${k}" ${l.st===k?'selected':''}>${v}</option>`).join('')}</select>
+   <button onclick="delLead('${l.id}')" class="text-red-400 text-xs">حذف</button></div>
+   <div class="grid grid-cols-2 gap-2 mt-2"><input value="${esc(l.note||'')}" placeholder="ملاحظة" onchange="setLeadF('${l.id}','note',this.value)" class="in !py-1.5 text-xs"><input type="date" value="${esc(l.fu||'')}" onchange="setLeadF('${l.id}','fu',this.value)" class="in !py-1.5 text-xs" title="موعد المتابعة"></div>
+  </div>`).join(''):'<p class="text-slate-400 text-sm">لا يوجد عملاء بعد. سيظهرون هنا عند طلب معاينة.</p>'));
+};
+window.setLeadF=(id,k,v)=>update(ref(db,`${base}/leads/${id}`),{[k]:v});
+window.expLeads=()=>{
+ const rows=[['الاسم','الهاتف','العقار','الحالة','موعد المعاينة','موعد المتابعة','ملاحظة','التاريخ'],...leads.map(l=>[l.name,l.phone,l.ptitle,LL[l.st]||'',l.visit?l.visit+' '+(l.slot||''):'',l.fu||'',l.note||'',new Date(l.at).toLocaleDateString('en-GB')])];
+ const csv='\ufeff'+rows.map(r=>r.map(c=>'"'+String(c??'').replace(/"/g,'""')+'"').join(',')).join('\n');
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='leads-'+dk()+'.csv';a.click()};
+window.setLead=(id,st)=>update(ref(db,`${base}/leads/${id}`),{st});
+window.delLead=async id=>{await remove(ref(db,`${base}/leads/${id}`));showLeads()};
+/* ---------- i18n ---------- */
+const EN={'كل عقاراتك، في محفظة واحدة.':'All your properties, in one portfolio.','ابحث بالمدينة أو الحي أو اسم العقار':'Search by city, area or property name','أقصى سعر':'Max price','الأحدث':'Newest','الأقل سعراً':'Price: low to high','الأعلى سعراً':'Price: high to low','الكل':'All','للبيع':'For sale','للإيجار':'For rent','تجاري':'Commercial','متاح':'Available','محجوز':'Reserved','مباع':'Sold','تثبيت التطبيق':'Install app','المفضلة':'Favorites','مفضلة':'Favorites','احجز معاينة عبر واتساب':'Book a viewing on WhatsApp','مشاركة':'Share','المساحة':'Area','الغرف':'Beds','الحمامات':'Baths','المواقف':'Parking','لا يوجد وصف.':'No description.','حاسبة الأقساط':'Installment calculator','المقدم %':'Down payment %','السنوات':'Years','فائدة سنوية %':'Annual interest %','القسط الشهري':'Monthly payment','💬 تواصل عبر واتساب':'💬 Chat on WhatsApp','📞 اتصال مباشر':'📞 Call now','مشاركة هذه الصفحة':'Share this page','كل عقارات المستشار':"All the agent's properties",'احجز معاينة':'Book a viewing','اترك بياناتك ليتواصل معك المستشار.':'Leave your details and the agent will contact you.','الاسم':'Name','رقم الهاتف':'Phone number','متابعة إلى واتساب':'Continue to WhatsApp','يوم المعاينة المفضل':'Preferred viewing date','الفترة':'Time slot','أي وقت':'Any time','صباحاً (9–12)':'Morning (9–12)','ظهراً (12–4)':'Noon (12–4)','مساءً (4–9)':'Evening (4–9)','مشاركة العقار':'Share property','نسخ الرابط':'Copy link','إرسال عبر واتساب':'Send via WhatsApp','تم النسخ ✓':'Copied ✓','📍 الموقع على الخريطة':'📍 Location','فتح في الخرائط':'Open in Maps','🎥 فيديو العقار':'🎥 Property video','🕶 جولة 360°':'🕶 360° tour','عقارات مشابهة':'Similar properties','مقارنة العقارات':'Compare properties','قارن':'Compare','مسح':'Clear','للمقارنة':'to compare','السعر':'Price','سعر المتر':'Price per m²','الموقع':'Location','التصنيف':'Category','الحالة':'Status','لا توجد عقارات مطابقة. جرّب تغيير البحث أو الفلاتر.':'No matching properties. Try changing your search or filters.','لم تُضف عقارات بعد.':'No properties yet.','رابط صفحتي العقارية':'My property page link','✓ موثّق':'✓ Verified'};
+const RX=[[/ غرف$/,' beds'],[/ حمام$/,' baths'],[/ \/ شهرياً$/,' / month'],[/^عرض المزيد/,'Show more'],[/^مستشارك: /,'Agent: '],[/^مختارات أعدّها لك يا /,'Picks prepared for you, ']];
+const ORI=new WeakMap();
+function trText(n){const raw=ORI.has(n)?ORI.get(n):n.nodeValue,t=raw.trim();if(!t)return;
+ if(LANG==='en'){let o=EN[t];if(!o)for(const[r,x]of RX)if(r.test(t)){o=t.replace(r,x);break}
+  if(o){if(!ORI.has(n))ORI.set(n,n.nodeValue);const v=raw.replace(t,o);if(n.nodeValue!==v)n.nodeValue=v}}
+ else if(ORI.has(n)){const v=ORI.get(n);ORI.delete(n);if(n.nodeValue!==v)n.nodeValue=v}}
+function trAttr(e){for(const a of['placeholder','title']){const k='ar'+a;if(!e.hasAttribute(a))continue;const raw=e.dataset[k]??e.getAttribute(a);
+  if(LANG==='en'&&EN[raw]){e.dataset[k]=raw;e.setAttribute(a,EN[raw])}else if(LANG!=='en'&&e.dataset[k]!==undefined){e.setAttribute(a,e.dataset[k]);delete e.dataset[k]}}}
+function walk(r){if(r.nodeType===3)return trText(r);if(r.nodeType!==1||/^(SCRIPT|STYLE|TEXTAREA)$/.test(r.tagName))return;
+ trAttr(r);r.querySelectorAll('[placeholder],[title]').forEach(trAttr);
+ const w=document.createTreeWalker(r,4,{acceptNode:n=>/^(SCRIPT|STYLE|TEXTAREA)$/.test(n.parentNode.tagName)?2:1});let n;while(n=w.nextNode())trText(n)}
+window.toggleLang=()=>setLang(LANG==='en'?'ar':'en');
+function setLang(l){LANG=l;LS.set('lang',l);document.documentElement.lang=l;document.documentElement.dir=l==='en'?'ltr':'rtl';$('bLang').textContent=l==='en'?'ع':'EN';walk(document.body);render()}
+new MutationObserver(ms=>{if(LANG!=='en')return;for(const m of ms){if(m.type==='characterData')trText(m.target);else m.addedNodes.forEach(walk)}}).observe(document.body,{childList:true,subtree:true,characterData:true});
+head();render();
+if(LANG==='en')setLang('en');
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script>
+</body>
+</html>
